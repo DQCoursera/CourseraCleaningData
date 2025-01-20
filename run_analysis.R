@@ -1,7 +1,5 @@
-# Load necessary libraries
 library(dplyr)
 
-# Define paths to the train and test sets
 train_path <- "UCI HAR Dataset/train"
 test_path <- "UCI HAR Dataset/test"
 activity_labels_path <- "UCI HAR Dataset/activity_labels.txt"
@@ -15,7 +13,7 @@ read_data_with_column_names <- function(file_path) {
     return(data)
 }
 
-# Function to load and prepare a dataset (train or test)
+# Function to load and prepare a dataset (train and test)
 load_and_prepare_data <- function(data_path, subject_file, y_file, x_file) {
     # Read subject data
     subject_data <- read.table(file.path(data_path, subject_file), header = FALSE, col.names = c("subject"))
@@ -44,7 +42,7 @@ test_data <- load_and_prepare_data(test_path, "subject_test.txt", "y_test.txt", 
 # Combine train and test data into one dataset
 combined_data <- rbind(train_data, test_data)
 
-# Map activity IDs to activity names
+# Map activity numbers to activity names
 combined_data$activity <- factor(combined_data$activity, levels = activity_labels$activity_id, labels = activity_labels$activity_name)
 
 # Sort combined data by subject column in ascending order
