@@ -1,0 +1,33 @@
+mean prefix indicates that the column is an average of non-tidy dataset
+"t": (e.g. "tBodyAcc") indicates measurements taken at a constant rate of 50Hz
+"f": (e.g. "fBodyAcc") indicates frequency domain signal (aka signal strength)
+Subject: Column indicates which subject the data belongs to, numbered 1-30 for each individual.
+Activity: Column indicates which activity the subject was performing (Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Laying)
+mean_tBodyAcc_mean()-XYZ: Column indicates the mean acceleration of each subject per activity in all three axes (XYZ)
+mean_tBodyAcc_std()-XYZ: Column indicates the standard deviation of mean_tBodyAcc_Mean()-XYZ
+mean_tBodyAccJerk-mean()-XYZ: The mean linear acceleration of the body captured in time in all three axes (XYZ)
+mean_tBodyAccJerk-std()-XYZ: standard deviation of mean_tBodyAccJerk-mean()-XYZ
+mean_tBodyAccMag-mean(): The calculated magnitude of the means all three axes of mean_tBodyAcc_mean()-XYZ
+mean_tBodyAccMag-std(): The stdev of the calculation of mean_tBodyAccMag-mean()
+mean_tBodyAccJerkMag-mean(): The calculated magnitude of the means of all three axes of mean_tBodyAccJerk-mean()-XYZ
+mean_tBodyAccJerkMag-std(): The standard deviation of the calculation of mean_tBodyAccJerkMag-mean()
+mean_tGravityAcc-mean()-XYZ: The mean acceleration due to gravity of each subject per activity in all three axes
+mean_tGravityAcc-std()-XYZ: The standard deviation of mean_tGravityAcc-mean()-XYZ
+mean_tGravityAccMag-mean(): The calculated magnitude of the means of all three axes of mean_tGravityAcc-mean()-XYZ
+mean_tGravityAccMag-std(): stdev of mean_tGravityAccMag-mean()
+mean_fBodyAcc-mean()-XYZ: frequency domain of body acceleration in all three axes
+mean_fBodyAcc-std()-XYZ: standard deviation of mean_fBodyAcc-mean()-XYZ
+mean_fBodyAccJerk-mean()-XYZ: frequency of mean linear acceleration of the body in all three axes
+mean_fBodyAccJerk-stdev()-XYZ: stdev of mean_fBodyAccJerk-mean()-XYZ
+mean_fBodyAccMag-mean(): mean frequency of the magnitude of body acceleration
+mean_fBodyAccMag-std(): standard deviation of mean_fBodyAccMag-mean()
+mean_tBodyGyro-mean()-XYZ: mean gyroscopic signal of body in all three axes
+mean_tBodyGyro-stdev()-XYZ: standard deviation of means of mean_tBodyGyro-mean()-XYZ
+mean_tBodyGyroJerk-mean()-XYZ: mean linear acceleration of body gyroscopic signal
+mean_tBodyGyroJerk-stdev()-XYZ: standard deviation of mean_tBodyGyroJerk-mean()-XYZ
+mean_tBodyGyroMag-mean(): calculated magnitude of means of all three axes of mean_tBodyGyro-mean()
+mean_tBodyGyroMag-stdev(): standard deviation of mean_tBodyGyroMag-mean()
+mean_tBodyGyroJerkMag-mean(): calculated magnitude of means of all three axes of mean_tBodyGyroJerk-mean()
+mean_tBodyGyroJerkMag-stdev(): standard deviation of mean_tBodyGyroJerkMag-mean()
+mean_fBodyGyro-mean()-XYZ: mean frequency of gyroscopic signals of all three axes
+mean_fBodyGyro-std()-XYZ: standard deviation of mean_fBodyGyro-mean()-XYZ
